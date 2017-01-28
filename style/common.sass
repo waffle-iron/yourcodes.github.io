@@ -93,21 +93,25 @@ ul
 nav
 	background-color: #359134
 	height: 120px
-	overflow: hidden
+	//overflow: hidden
 	width: 100%
 	position: fixed
 	padding-left: 50px
 	padding-right: 50px
 	z-index: 255
+	h1,a,img
+		position: relative
 	h1,a
 		color: white
+		top: calc(50% - 0.6em)
 	h1
 		float: left
-		line-height: 80px
 		letter-spacing: 1px
 		font-weight: 300
-		font-size: 2.5em
+		font-size: 3em
 	img
+		top: 10%
+		vertical-align: middle
 		padding-right: 10px
 		float: left
 		height: 80%
@@ -117,10 +121,10 @@ nav
 		position: relative
 
 		li
-			height: 100%
 			float: left
+			height: 100%
 			a
-				height: 100%
+				display: block
 				text-transform: uppercase
 				letter-spacing: 1px
 				font-weight: 500

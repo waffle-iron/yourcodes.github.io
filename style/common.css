@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+.tile, .tileContainer .box35, .tileContainer .box50, .tileContainer .box65, .tileContainer .box100 {
+  padding: 10px;
+  float: left;
+  color: white;
+  text-shadow: 0 0 12px black;
+  overflow: hidden;
+  cursor: pointer; }
+  .tile h1, .tileContainer .box35 h1, .tileContainer .box50 h1, .tileContainer .box65 h1, .tileContainer .box100 h1 {
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 5px; }
+  .tile p, .tileContainer .box35 p, .tileContainer .box50 p, .tileContainer .box65 p, .tileContainer .box100 p {
+    margin-top: 0;
+    color: white;
+    margin-left: 15px; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+div {
+  overflow: hidden; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif; }
+
+header {
+  background: white; }
+
+main {
+  background: white;
+  overflow: hidden; }
+
+section {
+  background: white; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+li {
+  cursor: pointer; }
+
+.disable, .disableSelector {
+  cursor: not-allowed !important;
+  opacity: 0.3; }
+  .disable.box35:hover, .box35.disableSelector:hover {
+    background-color: white !important; }
+
+.disableSelector {
+  cursor: pointer !important;
+  transition: all 0.5s; }
+
+.hidden {
+  display: none; }
+
+.transition {
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; }
+
+.tileContainer {
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+  .tileContainer .box35, .tileContainer .box50, .tileContainer .box65, .tileContainer .box100 {
+    float: none;
+    display: inline-block;
+    line-height: normal;
+    border-radius: 2px;
+    background-size: 100%;
+    background-repeat: no-repeat; }
+    .tileContainer .box35 h2, .tileContainer .box35 h4, .tileContainer .box50 h2, .tileContainer .box50 h4, .tileContainer .box65 h2, .tileContainer .box65 h4, .tileContainer .box100 h2, .tileContainer .box100 h4 {
+      text-align: start; }
+    .tileContainer .box35 h2, .tileContainer .box50 h2, .tileContainer .box65 h2, .tileContainer .box100 h2 {
+      font-size: 26px;
+      padding-top: 10px;
+      padding-left: 10px; }
+    .tileContainer .box35 h4, .tileContainer .box50 h4, .tileContainer .box65 h4, .tileContainer .box100 h4 {
+      padding-left: 10px;
+      font-weight: 400;
+      font-size: 16px; }
+
+.button {
+  width: 150px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+  transition-duration: 0.2s;
+  text-align: center;
+  cursor: pointer;
+  left: calc(50% - 75px - 20px);
+  background-color: white;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto; }
+  .button span {
+    font-weight: bold; }
+
+.button:hover {
+  color: white; }
+
+nav {
+  height: 80px;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  z-index: 255; }
+  nav ul {
+    float: right;
+    margin-right: 50px;
+    position: relative; }
+    nav ul li {
+      float: left;
+      line-height: 55px;
+      transition: all 0.5s; }
+      nav ul li a {
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: 15px;
+        padding-right: 12px;
+        padding-left: 12px; }
+        nav ul li a a {
+          color: white; }
+
+#extensionView {
+  overflow: visible; }
+
+footer {
+  width: calc(100% - 40px);
+  background: #222222;
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  color: white;
+  padding: 20px; }
+  footer h2 {
+    color: white;
+    margin-bottom: 5px; }
+  footer .otherInformation {
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    padding-top: 15px; }
+  footer .social {
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-align: center; }
+    footer .social ul {
+      overflow: hidden;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center; }
+      footer .social ul li {
+        display: inline-block;
+        margin: 0;
+        padding: 0; }
+        footer .social ul li a {
+          color: white;
+          font-size: 24px;
+          padding: 8px;
+          cursor: pointer; }
+  footer .copyright h4 {
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 10px; }
+  footer .copyright h5 {
+    margin-top: 0;
+    font-weight: normal;
+    margin-bottom: 10px; }
+  footer .copyright p {
+    font-size: 12px;
+    color: #ccc; }
+    footer .copyright p a {
+      color: #ccc;
+      text-decoration: underline;
+      cursor: pointer; }
+  footer .bottomLinks {
+    padding-left: 20px;
+    font-size: 12px; }
+    footer .bottomLinks a {
+      color: white;
+      cursor: pointer; }
+
+/*# sourceMappingURL=common.css.map */

@@ -17,7 +17,7 @@
                     <h1>L'OpenSource è come la natura</h1>
                     <h1>Libero</h1>
                 </div>
-                <video autoplay preload="auto" muted><source src="https://goo.gl/NYp1hV"></video>
+                <video autoplay preload="auto" muted loop><source src="https://goo.gl/wjtTWf"></video>
             </div>
         </main>
         <footer id="extensionView">

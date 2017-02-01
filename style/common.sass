@@ -1,6 +1,5 @@
 @import define
 @import reset
-//@import "compass"
 
 body
 	padding: 0
@@ -92,7 +91,7 @@ ul
 // NavBar
 
 nav
-	background-color: #2caf0b
+	background-color: $green
 	height: 120px
 	//overflow: hidden
 	width: 90%
@@ -133,85 +132,37 @@ nav
 // Footer
 
 footer
+	font-size: 1em
 	height: auto
 	width: 100%
 	padding-top: 10px
 	background: #fbfbfb
-	z-index: -1
-	position: fixed
-	bottom: 0
-	left: 0
-	//color: white
-	//padding: 20px
 	.sumInfo
-		ul,li
-			height: 100%
 		height: 100px
 		border-top: 1px solid #e4e4e4
 		width: 60%
 		margin-left: 20%
 		margin-right: 20%
+		ul,.social
+			position: relative
 		ul
+			top: calc(50% - 0.5em)
 			li
-				line-height: 100px
-				padding-right: 5px
-	h2
-		color: white
-		margin-bottom: 5px
-
-	.otherInformation
-		margin-right: auto
-		margin-left: auto
-		width: 300px
-		padding-top: 15px
-
-	.social
-		margin-bottom: 10px
-		overflow: hidden
-		text-align: center
-
-		ul
-			overflow: hidden
-			list-style: none
-			padding: 0
-			margin: 0
-			text-align: center
-
-			li
-				display: inline-block
-				margin: 0
-				padding: 0
-
-				a
-					color: white
-					font-size: 24px
-					padding: 8px
-					cursor: pointer
-	.copyright
-		color: #767676
-		h4
-			font-size: 24px
-			margin-bottom: 0
-			margin-top: 10px
-
-		h5
-			margin-top: 0
-			font-weight: normal
-			margin-bottom: 10px
-
-		p
-			font-size: 12px
-			color: #ccc
-
-			a
-				color: #ccc
-				text-decoration: underline
-				cursor: pointer
-
-	.bottomLinks
-		padding-left: 20px
-		font-size: 12px
-
+				padding-right: 10px
 		a
-			color: white
-			cursor: pointer
+			color: $green
+			display: block
+			float: left
+
+		.social
+			top: calc(50% - 12px)
+			float: left
+			a
+				margin-right: 5px
+
+		.links
+			float: right
+
+		.copyright
+			float: left
+			color: #767676

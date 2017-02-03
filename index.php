@@ -46,4 +46,6 @@
             <?php include 'ajax/sumInfo.php';?>
         </footer>
     </body>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/index.js" type="text/javascript"></script>
 </html>

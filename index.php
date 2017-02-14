@@ -17,10 +17,12 @@
                     <h1>L'OpenSource è come la natura</h1>
                     <h1>Libero</h1>
                 </div>
-                <video autoplay preload="auto" muted poster="images/videoPoster.png">
-                    <source src="https://goo.gl/wjtTWf">
-                    Your browser does not support the video tag.
-                </video>
+                <div class="flx-embed"><div style="position:relative; height:0; padding-bottom:56.25%; width:100%"><iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://goo.gl/VudWJf" frameborder="0" allowfullscreen></iframe></div></div>
+<!--                <div class="flx-embed"><div style="position:relative; height:0; padding-bottom:56.25%; width:100%"><iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://media.flixel.com/cinemagraph/kk1zmu74h3kmjymkfr8s?hd=false" frameborder="0" allowfullscreen></iframe></div></div>-->
+<!--                <video autoplay preload="auto" muted poster="images/videoPoster.png">-->
+<!--                    <source src="https://goo.gl/wjtTWf">-->
+<!--                    Your browser does not support the video tag.-->
+<!--                </video>-->
             </div>
             <div class="container middleContainer">
                 <div class="imageDiv">

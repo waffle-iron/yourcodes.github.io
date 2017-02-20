@@ -1,0 +1,20 @@
+{
+  "name": "website",
+  "homepage": "https://github.com/YourCodes/website",
+  "authors": [
+    "Simone Grossi <grossisimone@outlook.it>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "^3.1.1"
+  }
+}

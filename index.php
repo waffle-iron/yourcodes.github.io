@@ -5,24 +5,19 @@
         <meta name="description" content="opensource mind make opensource code">
         <meta name="keywords" content="yourcodes,opensource,software">
         <meta name="author" content="YourCodes">
-        <link rel="stylesheet" href="style/index.css">
+        <link rel="stylesheet" href="flesh/style/index.css">
     </head>
     <body>
         <header>
             <?php include 'ajax/navBar.php';?>
         </header>
-        <main>
-            <div class="container">
+        <section>
+            <div class="container hero">
                 <div class="overlay">
                     <h1>L'OpenSource è come la natura</h1>
                     <h1>Libero</h1>
                 </div>
-                <div class="flx-embed"><div style="position:relative; height:0; padding-bottom:56.25%; width:100%"><iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://goo.gl/VudWJf" frameborder="0" allowfullscreen></iframe></div></div>
-<!--                <div class="flx-embed"><div style="position:relative; height:0; padding-bottom:56.25%; width:100%"><iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://media.flixel.com/cinemagraph/kk1zmu74h3kmjymkfr8s?hd=false" frameborder="0" allowfullscreen></iframe></div></div>-->
-<!--                <video autoplay preload="auto" muted poster="images/videoPoster.png">-->
-<!--                    <source src="https://goo.gl/wjtTWf">-->
-<!--                    Your browser does not support the video tag.-->
-<!--                </video>-->
+                <video class="cinegraph" loop autoplay><source src="media/cinegraph.tablet.mp4" type="video/mp4">Your browser does not support the video tag</video>
             </div>
             <div class="container middleContainer">
                 <div class="imageDiv">
@@ -43,7 +38,7 @@
 
                 </div>
             </div>
-        </main>
+        </section>
         <footer id="extensionView">
             <?php include 'ajax/sumInfo.php';?>
         </footer>

@@ -43,6 +43,6 @@
             <?php include 'ajax/sumInfo.php';?>
         </footer>
     </body>
-    <script src="/bower_components/jQuery/dist/jquery.slim.js"></script>
+    <script src="/bower_components/jQuery/dist/jquery.js"></script>
     <script src="js/index.js" type="text/javascript"></script>
 </html>

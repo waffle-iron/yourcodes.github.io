@@ -5,8 +5,8 @@
         <meta name="description" content="opensource mind make opensource code">
         <meta name="keywords" content="yourcodes,opensource,software">
         <meta name="author" content="YourCodes">
-        <link rel="stylesheet" href="flesh/style/index.css">
-        <link rel="stylesheet" href="flesh/style/tile.css">
+        <link type="text/css" rel="stylesheet" href="flesh/style/index.css">
+        <link type="text/css" rel="stylesheet" href="flesh/style/tile.css">
     </head>
     <body>
         <header>
@@ -41,16 +41,21 @@
                 </div>
             </div>
             <div class="hContainer">
-	            <div class="vert_divided">
+	            <div style="height: 45%">
 		            <h1 class="join_with_us">Unisciti e <span id="rotate"></span></h1>
 	            </div>
-                <div class="vert_divided tileContainer">
-	                <h2>Contattaci</h2>
-                    <div class="box50">
+                <div style="height: 20%; margin-left: auto; margin-right: auto; width: 30%;">
+                    <hr style="width: calc(50% - 1.5em); float: left; line-height: 3em">
+                    <h1 style="float: left">O</h1>
+                    <hr style="width: calc(50% - 1.5em); float: left">
+                </div>
+                <div class="tileContainer" style="height: 45%">
+                    <div class="box33">
                         <img src="media/FB-f-Logo__blue_144.png">
                         <h1>Facebook</h1>
                     </div>
-                    <div class="box50">
+                    <h1 class="box33">Contattaci</h1>
+                    <div class="box33">
                         <img src="media/Twitter_Logo_White_On_Blue.png">
                         <h1>Twitter</h1>
                     </div>
@@ -61,6 +66,6 @@
             <?php include 'ajax/sumInfo.php';?>
         </footer>
     </body>
-    <script src="/bower_components/jQuery/dist/jquery.js"></script>
-    <script src="js/index.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/bower_components/jQuery/dist/jquery.js"></script>
+    <script type="text/javascript" src="flesh/js/index.js"></script>
 </html>

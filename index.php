@@ -5,8 +5,9 @@
         <meta name="description" content="opensource mind make opensource code">
         <meta name="keywords" content="yourcodes,opensource,software">
         <meta name="author" content="YourCodes">
-        <link type="text/css" rel="stylesheet" href="flesh/style/index.css">
+        <link type="text/css" rel="stylesheet" href="flesh/style/common.css">
         <link type="text/css" rel="stylesheet" href="flesh/style/tile.css">
+        <link type="text/css" rel="stylesheet" href="style/custom.css">
     </head>
     <body>
         <header>
@@ -14,7 +15,7 @@
         </header>
         <section>
             <div class="hContainer hero">
-                <div class="overlay">
+                <div class="overlay_text">
                     <h1>L'OpenSource è come la natura</h1>
                     <h1>Libero</h1>
                 </div>
@@ -41,15 +42,10 @@
                 </div>
             </div>
             <div class="hContainer">
-	            <div style="height: 45%">
+	            <div class="v_fifty">
 		            <h1 class="join_with_us">Unisciti e <span id="rotate"></span></h1>
 	            </div>
-                <div style="height: 20%; margin-left: auto; margin-right: auto; width: 30%;">
-                    <hr style="width: calc(50% - 1.5em); float: left; line-height: 3em">
-                    <h1 style="float: left">O</h1>
-                    <hr style="width: calc(50% - 1.5em); float: left">
-                </div>
-                <div class="tileContainer" style="height: 45%">
+                <div class="tileContainer v_fifty">
                     <div class="box33">
                         <img src="media/FB-f-Logo__blue_144.png">
                         <h1>Facebook</h1>

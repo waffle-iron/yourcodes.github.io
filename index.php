@@ -10,7 +10,7 @@
         <link type="text/css" rel="stylesheet" href="style/custom.css">
     </head>
     <body>
-        <header>
+        <header id="js-header">
             <?php include 'ajax/navBar.php';?>
         </header>
         <section>

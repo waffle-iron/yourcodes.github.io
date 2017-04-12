@@ -1,4 +1,4 @@
-<nav class="navBar">
+<nav>
     <img src="../media/logo.png">
     <h1 id="logo">YourCodes</h1>
     <ul>

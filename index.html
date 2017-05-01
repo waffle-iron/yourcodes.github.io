@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html>
     <head>
         <title>YourCodes</title>
@@ -13,7 +11,14 @@
     </head>
     <body>
         <header id="js-header">
-            <?php include 'ajax/navBar.php';?>
+            <nav>
+                <img src="../media/logo.png">
+                <h1 id="logo">YourCodes</h1>
+                <ul>
+                    <li><a href="#">Prodotti</a></li>
+                    <li><a href="#">Credits</a></li>
+                </ul>
+            </nav>
         </header>
         <section>
             <div class="hContainer hero">
@@ -34,11 +39,11 @@
                         <h1>Collabora</h1>
                     </div>
                     <div class="box25">
-                        <img src="media/opensource.png">
+                        <img src="/media/opensource.png">
                         <h1>Condividi</h1>
                     </div>
                     <div class="box25">
-                        <img src="media/missile.png">
+                        <img src="/media/missile.png">
                         <h1>Fatti conoscere</h1>
                     </div>
                 </div>
@@ -61,7 +66,14 @@
             </div>
         </section>
         <footer id="extensionView">
-            <?php include 'ajax/sumInfo.php';?>
+            <div class="sumInfo">
+                <ul>
+                    <li class="copyright">© 2017 YourCodes</li>
+                </ul>
+                <ul class="links">
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
         </footer>
     </body>
     <script type="text/javascript" src="/bower_components/jQuery/dist/jquery.js"></script>

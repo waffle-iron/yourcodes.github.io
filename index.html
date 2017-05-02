@@ -1,69 +1,107 @@
-<!DOCTYPE html>
-
 <html>
-    <head>
-        <title>YourCodes</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="opensource mind make opensource code">
-        <meta name="keywords" content="yourcodes,opensource,software">
-        <meta name="author" content="YourCodes">
-        <link type="text/css" rel="stylesheet" href="flesh/style/common.css">
-        <link type="text/css" rel="stylesheet" href="flesh/style/tile.css">
-        <link type="text/css" rel="stylesheet" href="style/custom.css">
-    </head>
-    <body>
-        <header id="js-header">
-            <?php include 'ajax/navBar.php';?>
-        </header>
-        <section>
-            <div class="hContainer hero">
-                <div class="overlay_text">
-                    <h1>L'OpenSource è come la natura</h1>
-                    <h1>Libero</h1>
-                </div>
-                <video class="cinegraph" loop autoplay poster="media/videoPoster.png"><source src="media/cinegraph.tablet.mp4" type="video/mp4">Your browser does not support the video tag</video>
+<head>
+    <title>YourCodes</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="opensource mind make opensource code">
+    <meta name="keywords" content="yourcodes,opensource,software">
+    <meta name="author" content="YourCodes">
+    <link type="text/css" rel="stylesheet" href="flesh/style/common.css">
+    <link type="text/css" rel="stylesheet" href="flesh/style/tile.css">
+    <link type="text/css" rel="stylesheet" href="style/custom.css">
+</head>
+<body>
+<header id="js-header">
+    <nav>
+        <img src="media/logo.png">
+        <h1 id="logo">YourCodes</h1>
+        <ul>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Credits</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <div class="hContainer hero">
+        <div class="overlay_text">
+            <h1>Open Source is like nature</h1>
+            <h1>Free</h1>
+        </div>
+        <video class="cinegraph" loop autoplay poster="media/videoPoster.png">
+            <source src="media/cinegraph.tablet.mp4" type="video/mp4">
+            Your browser does not support the video tag
+        </video>
+    </div>
+    <div class="hContainer mid_H_Container spotlight">
+        <div class="tileContainer">
+            <div class="box33">
+                <img src="media/heart.png">
+                <h1>We Loves Coding</h1>
             </div>
-            <div class="hContainer mid_H_Container">
-                <div class="tileContainer">
-                    <div class="box25">
-                        <img src="media/brainstorming.png">
-                        <h1>Progetta</h1>
-                    </div>
-                    <div class="box25">
-                        <img src="media/teamwork.png">
-                        <h1>Collabora</h1>
-                    </div>
-                    <div class="box25">
-                        <img src="media/opensource.png">
-                        <h1>Condividi</h1>
-                    </div>
-                    <div class="box25">
-                        <img src="media/missile.png">
-                        <h1>Fatti conoscere</h1>
-                    </div>
-                </div>
+            <div class="box33">
+                <img src="/media/opensource.png">
+                <h1>Open Source</h1>
             </div>
-            <div class="hContainer">
-	            <div class="v_fifty">
-		            <h1 class="join_with_us">Unisciti e <span id="rotate"></span></h1>
-	            </div>
-                <div class="tileContainer v_fifty">
-                    <div class="box33">
-                        <img src="media/FB-f-Logo__blue_144.png">
-                        <h1>Facebook</h1>
-                    </div>
-                    <h1 class="box33">Contattaci</h1>
-                    <div class="box33">
-                        <img src="media/Twitter_Logo_White_On_Blue.png">
-                        <h1>Twitter</h1>
-                    </div>
-                </div>
+            <div class="box33">
+                <img src="media/group.png">
+                <h1>With Friends</h1>
             </div>
-        </section>
-        <footer id="extensionView">
-            <?php include 'ajax/sumInfo.php';?>
-        </footer>
-    </body>
-    <script type="text/javascript" src="/bower_components/jQuery/dist/jquery.js"></script>
-    <script type="text/javascript" src="flesh/js/index.js"></script>
+        </div>
+    </div>
+    <div class="hContainer expand_info">
+        <img src="media/heart.png">
+        <p>
+            Writing code and develop can go beyond mere job.
+            <br>
+            Love for programming can give birth to memorable ideas that can leave the mark.
+        </p>
+    </div>
+    <div class="hContainer expand_info">
+        <img src="media/opensource.png">
+        <p>
+            Sharing your creations with other people allows you to exchange your knowledge and opinions.
+            <br>
+            Each of us has a lot to learn and always has something to teach who is next to him.
+        </p>
+    </div>
+    <div class="hContainer expand_info">
+        <img src="media/group.png">
+        <p>
+            The friendships is the base of everything.
+            <br>
+            They allow you to cooperate more synergistically and give you that motivation in the moment of discomfort.
+            <br>
+            Our own project would not see the light in the absence of friends.
+        </p>
+    </div>
+    <div class="hContainer" style="background-color: #FAFBFC">
+        <h1 class="join_with_us">Follow us and <span id="rotate"></span></h1>
+    </div>
+</section>
+<footer id="extensionView">
+    <div class="small">
+        <ul class="social">
+            <li style="padding-left: calc(50% - 25px * 2 - 10px * 2)">
+                <a href="#"><img src="media/mail.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="media/facebook.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="media/twitter.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="media/github.png"></a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © 2017 YourCodes
+        </p>
+        <!--<ul class="links">-->
+        <!--<li><a href="#">Blog</a></li>-->
+        <!--</ul>-->
+    </div>
+</footer>
+</body>
+<script type="text/javascript" src="/bower_components/jQuery/dist/jquery.js"></script>
+<script type="text/javascript" src="flesh/js/index.js"></script>
 </html>

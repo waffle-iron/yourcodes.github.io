@@ -25,4 +25,10 @@ header.smaller {
   transition: all 0.3s;
   background-color: rgba(44, 175, 11, 0.95); }
 
+.spotlight {
+  display: block; }
+  .spotlight .tileContainer {
+    display: table-cell;
+    vertical-align: middle; }
+
 /*# sourceMappingURL=custom.css.map */

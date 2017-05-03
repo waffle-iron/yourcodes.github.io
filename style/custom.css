@@ -3,9 +3,12 @@
 
 .join_with_us {
   float: left;
-  background-color: #FAFBFC;
+  background-color: #f5f6f7;
   height: 12em;
-  width: 100%; }
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(178, 179, 180, 0.5);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(178, 179, 180, 0.5);
+  box-shadow: 0px 0px 25px 0px rgba(178, 179, 180, 0.5); }
   .join_with_us h1 {
     color: #2caf0b;
     font-size: 4em;
@@ -26,9 +29,11 @@ header.smaller {
   background-color: rgba(44, 175, 11, 0.95); }
 
 .spotlight {
-  display: block; }
-  .spotlight .tileContainer {
-    display: table-cell;
-    vertical-align: middle; }
+  border-bottom: solid #f3f4f5 1px; }
+  .spotlight .tileContainer .box33 {
+    height: calc(100% - 20px); }
+    .spotlight .tileContainer .box33 img {
+      height: calc(100% - 3em - 15px - 40px);
+      width: auto; }
 
 /*# sourceMappingURL=custom.css.map */

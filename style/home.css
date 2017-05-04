@@ -32,8 +32,10 @@ header.smaller {
   border-bottom: solid #f3f4f5 1px; }
   .spotlight .tileContainer .box33 {
     height: calc(100% - 20px); }
+    .spotlight .tileContainer .box33 h1 {
+      font-size: 6vh; }
     .spotlight .tileContainer .box33 img {
       height: calc(100% - 3em - 15px - 40px);
       width: auto; }
 
-/*# sourceMappingURL=custom.css.map */
+/*# sourceMappingURL=home.css.map */

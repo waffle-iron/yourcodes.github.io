@@ -2,4 +2,3 @@
 .DS_Store
 *.map
 bower_components/
-!/bower_components/jQuery/dist/jquery.js
